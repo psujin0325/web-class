@@ -1,0 +1,15 @@
+h1{color: red !important;}
+body div h1#b {
+    color: #00ffbb;
+    font-size: 70px;
+    background-color: green;
+}
+body div h1#b{color:red;}
+div h1#b{color:blue;}
+h1#b{color:red;}
+#b{color:blue;}
+div h1.a{color:red;}
+h1.a{color:blue;}
+.a{color:red;}
+h1{color:red;}
+h1{color:blue;color:orange;}
