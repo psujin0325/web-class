@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "케듀";
+    src: url("../font/KERISKEDU_R.otf");
+    font-weight: 400;
+    /* 한글은 ""쌍따옴표로 묶어줘야 함
+       등록명은 맘대로 지어도 됨 */
+}
+@font-face {
+    font-family: "케듀";
+    src: url("../font/KERISKEDU_B.otf");
+    font-weight: 700;
+    /* 한글은 ""쌍따옴표로 묶어줘야 함
+       등록명은 맘대로 지어도 됨 */
+}
+
+@font-face {
+    font-family: "케듀테두리";
+    src: url(../font/KERISKEDU_Line.otf);
+}
+.kedu{
+    font-family: "케듀";, sans-serif;
+    /* 케듀체가 적용 안될 때 산세리프체가 적용됨 */
+    font-weight: 700;
+}
+.kedu2{
+    font-family: "케듀테두리";
+}
+
+@font-face {
+    font-family: 'NostalgicYuriDakku';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-1@1.0/Griun_YuriDaggu-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+.dakku{
+    font-family: 'NostalgicYuriDakku';
+}
+.mons{
+    font-family: "Ballet", cursive;
+}
+.b{
+    font-family: "Henny Penny", system-ui;
+}
