@@ -18,7 +18,7 @@
     src: url(../font/KERISKEDU_Line.otf);
 }
 .kedu{
-    font-family: "케듀";, sans-serif;
+    font-family: "케듀", sans-serif;
     /* 케듀체가 적용 안될 때 산세리프체가 적용됨 */
     font-weight: 700;
 }
